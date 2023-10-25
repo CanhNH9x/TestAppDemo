@@ -7,8 +7,7 @@ set -e
 set -x
 
 cd ..
-# choose a different release channel if you want - 
-https://github.com/flutter/flutter/wiki/Flutter-build-release-channels
+# choose a different release channel if you want - https://github.com/flutter/flutter/wiki/Flutter-build-release-channels
 # stable - recommended for production
 
 git clone -b stable https://github.com/flutter/flutter.git
